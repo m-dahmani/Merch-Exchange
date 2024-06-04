@@ -1,0 +1,12 @@
+{% extends 'listings/base.html' %}
+{% block content %}
+
+<h1>Update a band</h1>
+
+<form action="" method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="Send">
+</form>
+{% endblock %}
+

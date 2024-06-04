@@ -1,0 +1,72 @@
+/*
+*/
+
+.errorlist {
+    margin-bottom: 20px;
+    /* color: red;  /* Just to make errors stand out more */
+}
+
+.cancel-link,
+form input[type="submit"] {
+    /*display: inline-block;
+    vertical-align: middle;
+    height: 0.9375rem;
+    line-height: 0.9375rem;*/
+    /*width: 200px; */
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: #fff;
+    background: #747474;
+    margin: 0 0 0 10px;
+}
+
+.cancel-link:active,
+.cancel-link:focus,
+.cancel-link:hover {
+    background: #333;  /* /* #666666; */
+}
+
+form input[type="submit"]:active,
+form input[type="submit"]:focus,
+form input[type="submit"]:hover {
+    background: #a41515;
+}
+
+body {
+    /* 1em police Manrope  */ /* les listes : 1em police Manrope */ /* les paragraphes:  police Manrope */ /* et les mettre dans la police Manrope,. */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+ /* le cœur de la page ait un fond correspondant à #1F2039; */
+    background-color: #1f2039;
+}
+
+h1 {
+    /* les titres H1:3.5em en couleur #A5B4FC police Montserrat*/
+    font-size: 3.5em;
+    color: #f9f8ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+/* les paragraphes, les listes et H2 soient de la couleur #F9F8FF (sur fond bleu foncé). */
+    color: #f9f8ff;
+}
+
+p,
+li {
+    /* les paragraphes: 1.1em police */
+    font-size: 1em;
+    color: #f9f8ff;
+}
+
+/* Les liens de navigation du header passent à la verticale et sont centrés. */
+@media screen and (max-width: 996px) {
+
+    h1 {
+        /* Réduisez la taille des titres à 2em . */
+        font-size: 2em;
+    }
+
+
+
+
